@@ -1,0 +1,26 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background: #0b0b10; color: #e9e9ee; }
+.container { width: min(1100px, 92%); margin: 0 auto; }
+
+.topo { background: #101018; padding: 20px 0; border-bottom: 1px solid #1e1e26; }
+.topo h1 { font-size: 28px; margin-bottom: 4px; }
+.slogan { font-size: 14px; color: #b0b3c0; }
+.menu { margin-top: 10px; display: flex; gap: 12px; }
+.menu a { text-decoration: none; color: #cfd1db; font-weight: bold; padding: 6px 12px; border: 1px solid #252735; border-radius: 6px; }
+.menu a.ativo, .menu a:hover { background: #2a2d42; color: #fff; }
+
+.chamada { padding: 30px 0; }
+.chamada h2 { margin-bottom: 10px; }
+.botoes-vendas { display: flex; gap: 10px; margin-top: 10px; }
+.botao { text-decoration: none; padding: 10px 14px; border-radius: 6px; background: #1a1b24; color: #fff; }
+
+.galeria { padding: 30px 0; }
+.galeria h2 { margin-bottom: 10px; }
+.sub { color: #b0b3c0; margin-bottom: 20px; }
+.grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+
+.card { background: #11121a; padding: 10px; border-radius: 10px; }
+.card video { width: 100%; border-radius: 6px; }
+.titulo { font-size: 14px; margin-top: 6px; }
+
+.rodape { background: #0b0b10; border-top: 1px solid #1e1e26; text-align: center; padding: 15px 0; color: #b0b3c0; font-size: 14px; }
