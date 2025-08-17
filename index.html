@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Canal VIP - Telegram</title>
+  <title>Canal VIP - Telegram & Discord</title>
   <style>
     body {
       margin: 0;
@@ -30,6 +30,12 @@
       margin-bottom: 30px;
     }
 
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
     a {
       display: inline-block;
       padding: 15px 30px;
@@ -43,7 +49,16 @@
     }
 
     a:hover {
-      background-color: #006699;
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    .discord {
+      background-color: #5865F2;
+    }
+
+    .discord:hover {
+      background-color: #4752C4;
     }
 
     footer {
@@ -56,12 +71,16 @@
 </head>
 <body>
   <h1>🚀 Bem-vindo ao Canal VIP</h1>
-  <p>Conteúdo exclusivo disponível no nosso canal do Telegram.<br>
-     Clique no botão abaixo para acessar:</p>
+  <p>Escolha onde deseja acessar nosso conteúdo exclusivo:</p>
 
-  <a href="https://t.me/novinhas_vazadas_caroliny_dreher" target="_blank">
-    🔗 Acessar Canal no Telegram
-  </a>
+  <div class="buttons">
+    <a href="https://t.me/vazado1010_bot" target="_blank">
+      🔗 Acessar no Telegram
+    </a>
+    <a href="https://discord.gg/seuLinkAqui" target="_blank" class="discord">
+      🎮 Entrar no Discord
+    </a>
+  </div>
 
   <footer>
     © 2025 Canal VIP - Todos os direitos reservados
